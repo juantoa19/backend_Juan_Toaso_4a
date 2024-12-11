@@ -2,8 +2,8 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name":"Insti",
-    "email": "pattyfp30@hotmail.com",
+    "name":"Insti2",
+    "email": "jcc.toaso@yavirac.edu.ec",
     "password": "1234567",
     "telefono": "0981668402"
 }

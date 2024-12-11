@@ -3,7 +3,7 @@ POST http://127.0.0.1:3000/auth/forgot-password
 Content-Type: application/json
 
 {
-    "email":"alexmy339@gmail.com"
+    "email":"jcc.toaso@yavirac.edu.ec"
     
 }
 
@@ -12,6 +12,6 @@ POST http://localhost:3000/auth/reset-password
 Content-Type: application/json
 
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsZXhwYWNobzgyQGdtYWlsLmNvbSIsImlhdCI6MTczMzg2NjQxOSwiZXhwIjoxNzMzODcwMDE5fQ.5_r_ilz7-wHpymqBgs0PAHYp18ut9eDtDZB97Zi8WN8",
-  "newPassword": "alexander12"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpjYy50b2Fzb0B5YXZpcmFjLmVkdS5lYyIsImlhdCI6MTczMzg5MzYxMywiZXhwIjoxNzMzODk3MjEzfQ.dgmiCxaocBo-eZv3j0awWbKARoQlBGsOqw6nMmN046o",
+  "newPassword": "1234567"
 }
