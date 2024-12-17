@@ -54,7 +54,8 @@ export class AuthService {
     // Generar un token para restablecer la contraseña
     const token = this.jwtService.sign({ email: user.email }, { expiresIn: '1h' });
   
-    const resetLink = `${process.env.BASE_URL}/auth/reset-password?token=${token}`;
+    const resetLink = 'http://localhost:4200/auth/reset-password?token=${token}';
+
   
     // Configuración de Nodemailer para enviar el correo
     const transporter = nodemailer.createTransport({
@@ -69,7 +70,7 @@ export class AuthService {
       from: process.env.GMAIL_USER,  // Usar la variable de entorno
       to: email,
       subject: 'Restablecer Contraseña',
-      text: `Haz clic en el siguiente enlace para restablecer tu contraseña: ${resetLink}`,
+      text: 'Haz clic en el siguiente enlace para restablecer tu contraseña: ${resetLink}',
     };
   
     try {
